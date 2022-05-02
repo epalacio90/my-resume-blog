@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/images/software-dev.png'
+import logo from '../assets/images/avatars.svg'
 import '../assets/css/navbar.css'
 import {Link, useLocation} from "react-router-dom";
 import i18next from '../../i18n'
@@ -7,7 +7,7 @@ import i18next from '../../i18n'
 const NavBar = () =>{
     const location = useLocation();
     return(
-        <nav className="navbar navbar-expand-lg navbar-dark py-3 bg-secondary">
+        <nav className="navbar navbar-expand-lg navbar-dark py-4 bg-secondary" id='mainNav'>
             <div className="container">
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"

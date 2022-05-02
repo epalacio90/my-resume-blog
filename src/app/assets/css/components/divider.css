@@ -1,0 +1,10 @@
+.divider{
+    height: 2px;
+    width: 100%;
+    max-width: 4rem;
+    background-color: rgb(44, 62, 80);
+}
+
+.divider-white{
+    background-color: white;
+}
