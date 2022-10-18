@@ -13,10 +13,7 @@ const userRouter = require('./routes/user');
 const app = express();
 
 app.use(
-    cors({
-        credentials: true,
-        origin: ['http://localhost:8000']
-    })
+    cors()
 );
 
 // view engine setup
