@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const uniqueValidator = require('mongoose-unique-validator')
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 const Schema = mongoose.Schema;
 
@@ -8,7 +8,7 @@ const userSchema = new Schema({
     name: { type:String, required: true },
     email: { type: String, required: true, index: { unique: true }},
     password: { type: String, required: true},
-    creation_date: { type: String, required: true},
+    creation_date: { type: Date, required: true, default: Date.now()}
 });
 
 userSchema.pre('save', function(next) {

@@ -2,6 +2,7 @@
   "translation": {
     "home": "Home",
     "blog": "Blog",
-    "my-work": "My work"
+    "my-work": "My work",
+    "logout": "Logout"
   }
 }

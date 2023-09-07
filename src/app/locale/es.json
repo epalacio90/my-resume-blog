@@ -2,6 +2,7 @@
   "translation": {
     "home": "Inicio",
     "blog": "Blog",
-    "my-work": "Mi trabajo"
+    "my-work": "Mi trabajo",
+    "logout": "Cerrar sesión"
   }
 }

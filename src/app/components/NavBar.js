@@ -37,6 +37,18 @@ const NavBar = () =>{
                                         {i18next.t('blog')}
                                     </Link>
                                 </li>
+                                {localStorage.token && <li className="nav-item">
+                                    <Link
+                                      className={"nav-link"}
+                                      onClick={()=>{
+                                          localStorage.removeItem('token')
+                                      }}
+                                      to="/login"
+                                    >
+                                        {i18next.t('logout')}
+                                    </Link>
+                                </li>
+                                }
                             </ul>
                         </div>
                     </div>
