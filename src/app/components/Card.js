@@ -17,7 +17,7 @@ const Card = ({ color, image, title, content }) => {
 						src={image}
 						alt="placeholder"
 						style={{
-							width: '50%',
+							width: '30%',
 							position: 'absolute',
 							top: '50%',
 							left: '50%',
