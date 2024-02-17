@@ -16,7 +16,7 @@ const UploadImage = ({name, setParentLoading, setParentStopLoading, setParentIma
 		formData.append('image', acceptedFiles[0])
 
 		try{
-			const responseCrud = await fetch('https://images.quip.com.mx/api/images/upload',{
+			const responseCrud = await fetch('https://images.epalacio.com.mx/api/images/upload',{
 				method: 'POST',
 				headers:{
 					Authorization: 'Bearer '+ localStorage.getItem('token'),
