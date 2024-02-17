@@ -31,9 +31,9 @@ const Home = () =>{
         <>
             <div className="container-fluid main-banner my-0">
                 <img src={logo} alt={'main logo'} className="main-logo" />
-                <h1 className="text-white fw-bold my-4 main-title">FULL STACK DEV</h1>
+                <h1 className="text-white fw-bold my-4 main-title">Eduardo Palacio</h1>
                 <Divider white />
-                <p className='text-white my-4'>Javascript - Typescript - React - React-native - node.js</p>
+                <p className='text-white my-4'>Engineering leader - Health services - IoT </p>
             </div>
             <section className="container text-center my-5">
                 <h2>{i18next.t('my-work').toUpperCase()}</h2>
