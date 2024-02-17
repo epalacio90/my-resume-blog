@@ -10,7 +10,7 @@ const Card = ({ color, image, title, content }) => {
 	}
 
 	return(
-		<div className="col-md-6 col-lg-4">
+		<div className="col-md-6 col-lg-4 py-1">
 			<a href={content}>
 				<div style={cardStyle}>
 					<img
