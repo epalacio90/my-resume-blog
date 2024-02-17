@@ -62,9 +62,11 @@ const Home = () =>{
               in software engineering or related fields. Spent 6+ years working on an agency that I co-founded with a friend where we
               developed software for the Mexican government, during covid and due to political POV in Mexico we decided to close the agency.
               I’ve also worked in financial services industry creating strategies to fight fraud and as a solution architect for ETL solutions.
-
-              Born in Mexico City, raised in a little town really close to Mexico City named Texcoco, and now I’m living in Mexico City.
             </p>
+            <p className={'text-white '} style={{lineHeight: 1.2}} >Born in Mexico City, raised in a little town really close to Mexico City named Texcoco, and now I’m living in Mexico City.</p>
+            <p className={'text-white '} style={{lineHeight: 1.2}}>I have special interest in projects that use technology to improve health services and life quality.</p>
+
+
             <Divider white />
             <h3 className={'text-white'}>IRL</h3>
             <p className={'text-white '} style={{lineHeight: 1.2}} >
