@@ -11,20 +11,22 @@ const Card = ({ color, image, title, content }) => {
 
 	return(
 		<div className="col-md-6 col-lg-4">
-			<div style={cardStyle}>
-				<img
-					src={image}
-					alt="placeholder"
-					style={{
-						width: '50%',
-						position: 'absolute',
-						top: '50%',
-						left: '50%',
-						transform: 'translate(-50%, -50%)'
-					}}
-				/>
-				<h2 style={{color: 'white'}}>title</h2>
-			</div>
+			<a href={content}>
+				<div style={cardStyle}>
+					<img
+						src={image}
+						alt="placeholder"
+						style={{
+							width: '50%',
+							position: 'absolute',
+							top: '50%',
+							left: '50%',
+							transform: 'translate(-50%, -50%)'
+						}}
+					/>
+				</div>
+			</a>
+
 		</div>
 	);
 }
